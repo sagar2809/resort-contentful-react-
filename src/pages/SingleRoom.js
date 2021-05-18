@@ -1,10 +1,8 @@
 //while click on features room it will dispaly the rooms inmfo matching with slug
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import defaultBcg from '../images/room-1.jpeg'
 import {RoomContext} from '../Context';
 import { Link } from 'react-router-dom';
-import Hero from '../Components/Hero';
 import Banner from '../Components/Banner';
 import StyledHero from '../Components/StyledHero';
 

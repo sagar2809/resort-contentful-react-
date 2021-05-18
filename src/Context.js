@@ -114,7 +114,7 @@ const RoomContext = React.createContext();
         
        
         //filter by types(all,sinle, doublee...)
-        if(type != "all"){
+        if(type !== "all"){
             tempRooms = tempRooms.filter(room => room.type === type);
         }
         //filter by capacity(1,2,3,..)
